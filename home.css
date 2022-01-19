@@ -8,14 +8,15 @@ ul{
 margin: 0px;
 padding: 0px;
 list-style: none;
+font-family: 'constantia';
 
 }
 
  ul li{
   float: right;
-  height: 40px;
-   width: 250px;
-  line-height: 40px;
+  height: 50px;
+   width: 20% ;
+  line-height: 50px;
   text-align: center;
   font-size: 20px;
   opacity: .8px;
@@ -31,22 +32,26 @@ background-color: #0367fd;
 }
 ul li ul li{
  display: none;
+ width: 255px;
+ background-color: dimgray;
+ opacity: 90%;
 
 }
 ul li:hover ul li{
 display: block;
 }
 .box1{height: 600px;
-           width: 1250px;
-background-image: url('bgfinal.jpg');
- background-size: cover;
+           width: 100%;
+background-image: url('celestial.jpg');
+background-size: cover;
  background-position: center;
  background-attachment: fixed;
  display: table;
+ border: 0px;
 }
 .box2{
-  height: 600px;
-           width: 1250px;
+  height: 1800px;
+           width: 100%;
 background-color: white;
  background-size: cover;
  background-position: center;
@@ -83,12 +88,80 @@ a.button{
 h1{
   text-align: center;
   color: white;
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Constantia";
 }
 p{
   text-align: center;
-  color: white;
+  color: ghostwhite;
   font-size: 25px;
   font-family: "Constantia";
+}
+h2{
+  text-align: center;
+  font-family: "Gadugi";
+  font-size: 70px;
+  color: black;
+}
+header{
+  background-color: black;
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+.brand{
+  margin: 10px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 400px;
+  grid-gap: 10px;
+  margin-left: 8% ;
+
+}
+.info1{
+  background-color: orange;
+  border-radius: 25px;
+}
+.info2{
+  background-color: orange;
+  border-radius: 25px;
+}
+.info3{
+  background-color: orange;
+  border-radius: 25px;
+}
+footer{
+  background-color: dimgray;
+  height: 275px;
+  color: white;
+  font-family: 'Contantia';
+}
+.foot{
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  font-family: 'Gadugi';
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Gadugi';
+}
+h3{
+  margin: 25px;
+  font-size: 50px;
+  font-family: 'Gadugi';
+}
+font{
+  font-size: 30px;
+  font-family: 'Gadugi';
+  margin-left: 300px;
+  margin-top: 0px;
 }
