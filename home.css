@@ -14,9 +14,9 @@ font-family: 'constantia';
 
  ul li{
   float: right;
-  height: 50px;
+  height: 40px;
    width: 20% ;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   font-size: 20px;
   opacity: .8px;
@@ -109,7 +109,7 @@ header{
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 50px;
+  height: 40px;
 }
 .brand{
   margin: 10px;
@@ -118,7 +118,7 @@ header{
 main{
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 400px;
+  grid-template-rows: 350px;
   grid-gap: 10px;
   margin-left: 8% ;
 
@@ -126,14 +126,21 @@ main{
 .info1{
   background-color: orange;
   border-radius: 25px;
+  font-size: 20px;
+  font-family: 'Gadugi';
+  text-align: center;
 }
 .info2{
   background-color: orange;
   border-radius: 25px;
+    font-size: 20px;
+  font-family: 'Gadugi';
 }
 .info3{
   background-color: orange;
   border-radius: 25px;
+    font-size: 20px;
+  font-family: 'Gadugi';
 }
 footer{
   background-color: dimgray;
