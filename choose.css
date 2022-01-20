@@ -74,13 +74,21 @@ body{
 .Content{
      display: inline-block; 
     margin: 50px;
-    color: white;
-    font-size: 16px;
+    
+    
 background-color: black;
 padding: 7px;
-margin-left: 16%;
+text-align: center;
+margin-left: 18%;
+
+
+}
+.Content a{
+    text-decoration: none;
+    color: white;
     font-weight: 1000;
-    text-align: center;
+    font-size: 25px;
+
 }
 
 
